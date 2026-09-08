@@ -1,0 +1,128 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "434b309f-b957-4c66-8db3-968965ed3d4f")
+	(paper "A4")
+	(lib_symbols)
+	(global_label "SYN_CE"
+		(shape input)
+		(at 66.04 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "19617c51-d82c-4773-a40a-c26f63b96df9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 56.0396 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SYN_LE"
+		(shape input)
+		(at 66.04 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4fec9f80-87ac-4559-be6c-f597ceaaa703")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 56.2815 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SYN_DATA"
+		(shape input)
+		(at 66.04 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5908f126-3b44-4c26-aab5-1bd84ac8f982")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.0438 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SYN_MUTE"
+		(shape input)
+		(at 66.04 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "873f8147-e832-427d-88ef-75da5b927cba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.5601 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SPI_CLK"
+		(shape input)
+		(at 66.04 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fb047a0f-af78-443a-aee3-aad906fa0310")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.4348 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+)

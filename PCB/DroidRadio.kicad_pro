@@ -530,6 +530,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -671,6 +672,14 @@
     [
       "b5ecdb3b-a3b2-44a8-986c-aaad7cd56a32",
       "DroidRadio"
+    ],
+    [
+      "4cba4cb5-76f5-45ed-985c-bf6b0328d535",
+      "Transmitter"
+    ],
+    [
+      "8750bacf-3a47-4eee-a57c-3c64ff6e23c5",
+      "Processors"
     ]
   ],
   "text_variables": {},
