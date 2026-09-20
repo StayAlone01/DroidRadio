@@ -5,9 +5,9 @@
 	(uuid "b5ecdb3b-a3b2-44a8-986c-aaad7cd56a32")
 	(paper "A4")
 	(lib_symbols)
-	(global_label "SYN_RF_1P"
+	(global_label "SYN_RF_1N"
 		(shape output)
-		(at 205.74 96.52 0)
+		(at 160.02 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15,9 +15,9 @@
 			)
 			(justify left)
 		)
-		(uuid "3fc6193f-19f6-44e5-8728-5c12a7d50e30")
+		(uuid "8c0073e6-7d4a-45d1-a0ab-2219d2e176da")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.1271 96.52 0)
+			(at 173.4676 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31,7 +31,7 @@
 	)
 	(global_label "SYN_RF_1P"
 		(shape output)
-		(at 205.74 99.06 0)
+		(at 160.02 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -39,9 +39,9 @@
 			)
 			(justify left)
 		)
-		(uuid "5d4a1fb3-b101-4762-b115-875cb9cc3d92")
+		(uuid "e991879f-0ae2-4bac-b61d-cebe02d4b84b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.1271 99.06 0)
+			(at 173.4071 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -100,8 +100,54 @@
 		)
 	)
 	(sheet
-		(at 119.38 33.02)
-		(size 67.31 52.07)
+		(at 181.61 34.29)
+		(size 68.58 48.26)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "77eaa86f-e5ab-4ded-907b-e7cf87a68bf6")
+		(property "Sheetname" "Power"
+			(at 181.61 33.5784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 181.61 83.1346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DroidRadio"
+				(path "/b5ecdb3b-a3b2-44a8-986c-aaad7cd56a32"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 104.14 34.29)
+		(size 64.77 48.26)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -116,7 +162,7 @@
 		)
 		(uuid "8750bacf-3a47-4eee-a57c-3c64ff6e23c5")
 		(property "Sheetname" "Processors"
-			(at 119.38 32.3084 0)
+			(at 104.14 33.5784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -127,7 +173,7 @@
 			)
 		)
 		(property "Sheetfile" "Processors.kicad_sch"
-			(at 119.38 85.6746 0)
+			(at 104.14 83.1346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

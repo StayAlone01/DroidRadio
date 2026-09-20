@@ -521,7 +521,65 @@
       "version": 5
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/Transmitter/CTR_FREQ": [
+        "RF"
+      ],
+      "Net-(C34-Pad1)": [
+        "RF"
+      ],
+      "Net-(C7-Pad2)": [
+        "RF"
+      ],
+      "Net-(C8-Pad2)": [
+        "RF"
+      ],
+      "Net-(FL1-IN)": [
+        "RF"
+      ],
+      "Net-(FL1-OUT)": [
+        "RF"
+      ],
+      "Net-(FL2-IN)": [
+        "RF"
+      ],
+      "Net-(FL2-OUT)": [
+        "RF"
+      ],
+      "Net-(U1-LOC)": [
+        "RF"
+      ],
+      "Net-(U1-LOL)": [
+        "RF"
+      ],
+      "Net-(U2-RF_OUT_A+)": [
+        "RF"
+      ],
+      "Net-(U2-RF_OUT_A-)": [
+        "RF"
+      ],
+      "Net-(U3-RF1)": [
+        "RF"
+      ],
+      "Net-(U3-RF2)": [
+        "RF"
+      ],
+      "Net-(U3-RFC)": [
+        "RF"
+      ],
+      "Net-(U4-RF1)": [
+        "RF"
+      ],
+      "Net-(U4-RF2)": [
+        "RF"
+      ],
+      "Net-(U4-RFC)": [
+        "RF"
+      ],
+      "TXRF": [
+        "RF"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -575,6 +633,12 @@
           "show": true
         },
         {
+          "group_by": false,
+          "label": "Type",
+          "name": "Type",
+          "show": true
+        },
+        {
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
@@ -614,6 +678,12 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Tolerance",
+          "name": "Tolerance",
           "show": false
         }
       ],
@@ -665,7 +735,7 @@
         "uuid": "b5ecdb3b-a3b2-44a8-986c-aaad7cd56a32"
       }
     ],
-    "used_designators": "U1-6,T1,L1-4,#PWR1-29,R1-10,C1-38,Y1,FL1-2",
+    "used_designators": "U1-4,U7-11,T1,#PWR1-23,#PWR30-40,L1-4,R1-8,R11-16,C1-35,C39-52,Y1,FL1-2,Q1-4,D1,J1",
     "variants": []
   },
   "sheets": [
@@ -680,6 +750,10 @@
     [
       "8750bacf-3a47-4eee-a57c-3c64ff6e23c5",
       "Processors"
+    ],
+    [
+      "77eaa86f-e5ab-4ded-907b-e7cf87a68bf6",
+      "Power"
     ]
   ],
   "text_variables": {},
